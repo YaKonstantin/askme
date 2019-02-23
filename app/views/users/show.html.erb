@@ -6,7 +6,6 @@
 <h2>@<%= @user.username %></h2>
 
 <a href="#" class="button button-green"> Задать вопрос</a>
-=begin
 <% @questions.each do |question| %>
 
   <%= render partial: 'questions/question', object: question %>
